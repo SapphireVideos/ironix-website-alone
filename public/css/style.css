@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #2C2F33;
+	color: white;
+	font-family: 'Arial';
+}
+nav > ul {
+	list-style-type: none;
+	height: 64px;
+}
+.verticalSeparator {
+	height: 100%;
+	width: 1px;
+	background: white;
+}
+.horizontalSeparator {
+	width: 100%;
+	height: 1px;
+	background: white;
+}
+nav > ul > li {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	margin-left: 20px;
+}
+nav > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+nav > ul > li > a:active {
+	color: lightgrey;
+}
+nav > ul > li > a.active {
+	text-decoration: underline;
+	text-decoration-color: #EE0F44;
+	text-underline-offset: 5px;
+}
+nav > ul > li > a:hover {
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+.bigTitle {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+.bigDescription {
+	font-size: 20px;
+	text-align: center;
+}
+.commandExamples {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.button {
+	text-decoration: none;
+	padding: 20px 60px;
+	cursor: default;
+	display: inline-block;
+}
+.button:hover {
+	opacity: 60%;
+}
+.button:active {
+	opacity: 50%;
+}
+.discordButton {
+	background: #7289DA;
+	color: white;
+}
+.socialButtons {
+	text-align: center;
+	margin-top: 20px;	
+}
+.socialButtons > a {
+	color: white;
+	font-size: 20px;
+	max-resolution: 20px;
+	cursor: default;
+}
+.socialButtons > a:hover {
+	color: grey;
+}
+.socialButtons > a:active {
+	opacity: 60%;
+}
+.marginedContainer {
+	margin: 20px;
+}
+.leaderboardTitle {
+	margin-bottom: 20px;
+}
+.leaderboardItem {
+	margin-bottom: 20px;
+}
+.leaderboardItem > .avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.usernameLeaderboard {
+	color: lightgreen;
+	display: inline-block;
+}
